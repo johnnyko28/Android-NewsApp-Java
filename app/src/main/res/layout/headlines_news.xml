@@ -1,0 +1,44 @@
+
+
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/home"
+    tools:context=".ui.home.HomeFragment">
+
+
+
+
+    <!--    <fragment-->
+    <!--        android:id="@+id/main_fragment"-->
+    <!--        android:name="com.example.newsapp.ui.ItemFragment"-->
+    <!--        android:layout_width="413dp"-->
+    <!--        android:layout_height="588dp"-->
+    <!--        tools:layout_editor_absoluteY="110dp"-->
+    <!--        tools:ignore="MissingConstraints" />-->
+
+    <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+        android:id="@+id/swiperefresh_items"
+        android:layout_width="409dp"
+        android:layout_height="670dp"
+        android:layout_marginTop="45dp"
+        card_view:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerView"
+            android:layout_width="416dp"
+            android:layout_height="593dp"
+            card_view:layout_constraintBottom_toBottomOf="parent"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="18dp" />
+
+
+    </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

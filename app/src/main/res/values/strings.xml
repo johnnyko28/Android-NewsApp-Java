@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">NewsApp</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Headlines</string>
+    <string name="title_notifications">Trending</string>
+    <string name="title_bookmark">Bookmarks</string>
+    <string name="testValue">45m ago</string>
+    <string name="teatValue2">World News</string>
+    <string name="testValue3">|</string>
+    <string name="search_hint">Coronavirus</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+</resources>

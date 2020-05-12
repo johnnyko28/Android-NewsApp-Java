@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.home.HomeFragment">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card_view"
+        android:layout_width="400dp"
+        android:layout_height="110dp"
+        android:layout_gravity="center"
+        android:layout_margin="5dp"
+        android:layout_marginStart="56dp"
+        android:layout_marginLeft="56dp"
+        card_view:cardCornerRadius="10dp"
+        card_view:contentPadding="10dp"
+        card_view:layout_constraintStart_toStartOf="parent"
+        card_view:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/clear_weather"
+            android:scaleType="fitXY"/>
+        <RelativeLayout
+            android:id="@+id/top"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="166dp"
+                android:layout_height="72dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="10dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/content"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Los Angeles"
+                    android:textAppearance="?attr/textAppearanceListItem"
+                    android:textSize="22dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/colorAccent"/>
+
+                <TextView
+                    android:id="@+id/content"
+                    android:layout_width="116dp"
+                    android:layout_height="wrap_content"
+                    android:text="California"
+                    android:textAppearance="?attr/textAppearanceListItem"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/colorAccent"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="166dp"
+                android:layout_height="72dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="10dp"
+                android:orientation="vertical"
+                android:layout_alignParentRight="true">
+
+                <TextView
+                    android:id="@+id/content"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="19°C"
+                    android:textAppearance="?attr/textAppearanceListItem"
+                    android:textSize="24dp"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:textColor="@color/colorAccent"/>
+
+                <TextView
+                    android:id="@+id/content"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="Clouds"
+                    android:textAppearance="?attr/textAppearanceListItem"
+                    android:textSize="15dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/colorAccent"/>
+
+            </LinearLayout>
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <fragment
+        android:id="@+id/main_fragment"
+        android:name="com.example.newsapp.ui.ItemFragment"
+        android:layout_width="410dp"
+        android:layout_height="633dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="125dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>
