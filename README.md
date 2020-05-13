@@ -7,3 +7,6 @@ It is an Android Development project, which allows users to search for latest ne
 - Libraries: Picasso/Volley
 
 https://www.youtube.com/watch?v=IaFrY6Trblc&feature=youtu.be
+</br>
+</br>
+<img src="screenshot1.png" width="40%">
