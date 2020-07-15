@@ -1,5 +1,5 @@
 # Android-News-App
-Youtube demo link: https://www.youtube.com/watch?v=IaFrY6Trblc&feature=youtu.be  <br><br>
+Youtube demo link: https://youtu.be/IaFrY6Trblc  <br><br>
 It is an Android Development project, which allows users to search for latest news, look at detailed information about them, bookmark those news and post on Twitter about them.</br>
 
 
