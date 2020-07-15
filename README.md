@@ -8,11 +8,14 @@ It is an Android Development project, which allows users to search for latest ne
 - API: Guadian API/Google Trends API/Open Weather API
 - Libraries: Picasso/Volley
 
-
 </br>
 </br>
+<p>
 <img src="screenshot1.png" width="40%">
 <img src="screenshot2.png" width="40%">
+</p>
 </br>
+<p>
 <img src="screenshot3.png" width="40%">
 <img src="screenshot4.png" width="40%">
+</p>
