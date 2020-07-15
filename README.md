@@ -7,7 +7,7 @@ It is an Android Development project, which allows users to search for latest ne
 - API: Guadian API/Google Trends API/Open Weather API
 - Libraries: Picasso/Volley
 
-https://www.youtube.com/watch?v=IaFrY6Trblc&feature=youtu.be
+Youtube demo link: https://www.youtube.com/watch?v=IaFrY6Trblc&feature=youtu.be
 </br>
 </br>
 <img src="screenshot1.png" width="40%">
